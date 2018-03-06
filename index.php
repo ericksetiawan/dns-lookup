@@ -126,7 +126,7 @@
 									<?php 
 										if($displayCAPTCHA == true){
 											echo "<script src='https://www.google.com/recaptcha/api.js'></script>";
-											echo "<div align=center class=g-recaptcha data-sitekey=".$sitekey. data-callback=doSomething></div>";
+											echo "<div align=center class=g-recaptcha data-sitekey=".$sitekey." data-callback=doSomething></div>";
 										}
 									?>								
 								</div>
